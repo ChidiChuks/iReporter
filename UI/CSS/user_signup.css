@@ -1,0 +1,87 @@
+html,
+body {
+    margin: 10;
+    padding: 10;
+    background-color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body img {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.form-text {
+    margin-top: 70px;
+}
+
+.login_box {
+    background-color: rgb(228, 215, 199);
+    width: 500px;
+    border-radius: 5px;
+    height: 500px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20;
+    text-align: center;
+    font-size: 25px;
+    font-stretch: expanded;
+    font-weight: bold;
+    font-style: oblique;
+    color: rgb(87, 4, 69);
+}
+
+.fullName {
+    border-radius: 5px;
+    width: 50%;
+    padding: 8px;
+}
+
+.userField {
+    border-radius: 5px;
+    width: 50%;
+    padding: 8px;
+}
+
+.divider {
+    border: 1px solid rgb(87, 4, 69);
+    width: 300px;
+}
+
+.userPass {
+    border-radius: 5px;
+    width: 50%;
+    padding: 8px;
+}
+
+.login_box button.submit {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.login_box button.submit:hover {
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.signupText {
+    text-decoration: none;
+    color: slateblue;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.signupText:hover {
+    color: #39dc79;
+}
