@@ -1,6 +1,6 @@
 html,
 body {
-    margin: 10;
+    margin: 5;
     padding: 10;
     background-color: blueviolet;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -13,7 +13,7 @@ body img {
 }
 
 .form-text {
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .login_box {
@@ -30,7 +30,7 @@ h1 {
     font-size: 25px;
     font-stretch: expanded;
     font-weight: bold;
-    font-style: oblique;
+    font-style: normal;
     color: rgb(87, 4, 69);
 }
 
