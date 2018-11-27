@@ -3,7 +3,7 @@ const right = document.querySelector(".right");
 const container = document.querySelector(".container");
 
 left.addEventListener("mouseEnter", () => {
-    container.classList.add("hoverLeft");
+    container.classList.add("hoverRight");
 });
 
 left.addEventListener("mouseLeave", () => {
