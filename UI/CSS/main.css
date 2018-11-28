@@ -20,11 +20,9 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     color: white;
     position: absolute;
-    font-weight: bolder;
-    font-family: unset;
     left: 50%;
     top: 20%;
     transform: translateX(-50%);
@@ -166,27 +164,27 @@ h1 {
     transition: var(--speed) all ease-in-out;
 }
 
-.hoverLeft .right {
+.hoverLeft .left {
     width: var(--hover-width);
 }
 
-.hoverLeft .left {
+.hoverLeft .right {
     width: var(--other-width);
 }
 
-.hoverLeft .left:before {
+.hoverLeft .right:before {
     z-index: 2;
 }
 
-.hoverRight .left {
+.hoverRight .right {
     width: var(--hover-width);
 }
 
-.hoverRight .right {
+.hoverRight .left {
     width: var(--other-width);
 }
 
-.hoverRight .right:before {
+.hoverRight .left:before {
     z-index: 2;
 }
 
