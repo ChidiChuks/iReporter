@@ -1,6 +1,6 @@
 {
     "name": "iReporter",
-    "version": "1",
+    "version": "1.0.0",
     "description": "Creating a product to curb corruption in Africa.",
     "main": "app.js",
     "scripts": {
