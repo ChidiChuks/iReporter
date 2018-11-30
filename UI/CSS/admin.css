@@ -3,7 +3,17 @@ body {
     margin: 0;
     padding: 0;
     background-color: blueviolet;
+    color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.show {
+    width: 700px;
+    padding: 20;
+}
+
+.user_info p {
+    width: 400px;
 }
 
 nav {
@@ -37,6 +47,13 @@ nav ul li a {
     text-decoration: none;
 }
 
+.status-check {
+    position: relative;
+    list-style: none;
+    padding: 5;
+    margin: 5;
+}
+
 .form-text {
     margin-top: 30px;
 }
@@ -48,44 +65,15 @@ nav ul li a {
     height: 700px;
 }
 
-h1 {
-    margin: 0;
-    padding: 0 0 20;
-    text-align: center;
-    font-size: 25px;
-    font-stretch: expanded;
-    font-weight: bold;
-    font-style: normal;
-    color: tomato;
-}
-
-.input-full #records {
-    border-radius: 5px;
-    width: 70%;
-    padding: 8px;
-}
-
-.input-full #location {
-    border-radius: 5px;
-    width: 70%;
-    padding: 8px;
-}
-
-.input-full #title {
-    border-radius: 5px;
-    width: 70%;
-    padding: 8px;
-}
-
 .input-full #date {
     border-radius: 5px;
-    width: 70%;
+    width: 50%;
     padding: 8px;
 }
 
-.input-full #message {
+#message {
     border-radius: 5px;
-    width: 70%;
+    width: 50%;
     padding: 8px;
 }
 
@@ -94,7 +82,7 @@ h1 {
     width: 300px;
 }
 
-.login_box button.submit {
+.button-display .edit {
     border: none;
     outline: none;
     height: 40px;
@@ -106,19 +94,26 @@ h1 {
     margin-bottom: 20px;
 }
 
-.login_box button.submit:hover {
+.button-display .edit:hover {
     cursor: pointer;
-    background: #39dc79;
+    background: #39dc8b;
     color: #000;
 }
 
-.signupText {
-    text-decoration: none;
-    color: slateblue;
-    font-size: 14px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.button-display .delete {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #c9153c;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+    width: 50%;
+    margin-bottom: 20px;
 }
 
-.signupText:hover {
-    color: #39dc79;
+.button-display .delete:hover {
+    cursor: pointer;
+    background: #badd20;
+    color: #000;
 }
