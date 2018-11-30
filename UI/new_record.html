@@ -1,0 +1,82 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>new_record</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/new_record.css" />
+    <script src="#"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="admin.html">Records</a></li>
+            <li><a href="new_record.html">Report Case</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="user_sign_in.html">Sign in</a></li>
+            <li><a href="user_signup.html">Sign up</a></li>
+        </ul>
+    </nav>
+
+    <div style="height:10px"></div>
+    <center>
+        <div class="login_box">
+            <hr/>
+            <h1 class="form-text"> <big> Report Case </big> </h1>
+            <br/>
+            <form>
+
+                <div class="input-full">
+                    <select id="records" name="type">
+                        <option value="red-flag">Red-flag</option>
+                        <option value="intervention">Intervention</option>
+                    </select>
+                </div>
+
+                <br/>
+
+                <div class="input-full">
+                    <label for="location"></label>
+                    <input id="location" type="text" name="location" placeholder="Location e.g Lekki, Lagos">
+                </div>
+
+                <br/>
+
+                <div class="input-full">
+                    <label for="title"></label>
+                    <input id="title" type="text" name="title" placeholder="title">
+                </div>
+
+                <br/>
+
+                <div class="input-full">
+                    <label class="desc" for="message">Description:</label>
+                    <br/>
+                    <textarea name="comment" id="message" rows="15"></textarea>
+
+                </div>
+
+                <br/>
+
+                <div class="input-full">
+                    <label for="date"></label>
+                    <input id="date" type="date" name="registered">
+
+                </div>
+
+                <br/>
+
+                <button class="submit" name="submit" value="submit" onclick()>Submit</button>
+
+
+            </form>
+
+        </div>
+    </center>
+</body>
+
+</html>

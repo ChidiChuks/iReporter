@@ -33,76 +33,64 @@ nav ul li a {
     display: block;
     padding: 0px;
     color: #770b41;
-    width: 200px;
+    width: 100px;
     text-decoration: none;
 }
 
 .form-text {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .login_box {
-    background-color: rgb(228, 215, 199);
+    background-color: mintcream;
     width: 500px;
     border-radius: 5px;
-    height: 550px;
+    height: 700px;
 }
 
 h1 {
     margin: 0;
-    padding: 0 0 10;
+    padding: 0 0 20;
     text-align: center;
     font-size: 25px;
     font-stretch: expanded;
     font-weight: bold;
     font-style: normal;
-    color: rgb(87, 4, 69);
+    color: tomato;
 }
 
-.firstName {
+.input-full #records {
     border-radius: 5px;
     width: 70%;
-    padding: 5px;
+    padding: 8px;
 }
 
-.lastName {
+.input-full #location {
     border-radius: 5px;
     width: 70%;
-    padding: 5px;
+    padding: 8px;
 }
 
-.otherName {
+.input-full #title {
     border-radius: 5px;
     width: 70%;
-    padding: 5px;
+    padding: 8px;
 }
 
-.userField {
+.input-full #date {
     border-radius: 5px;
     width: 70%;
-    padding: 5px;
+    padding: 8px;
 }
 
-.email {
+.input-full #message {
     border-radius: 5px;
     width: 70%;
-    padding: 5px;
-}
-
-.userPass {
-    border-radius: 5px;
-    width: 70%;
-    padding: 5px;
-}
-
-.phoneNumber {
-    border-radius: 5px;
-    width: 70%;
-    padding: 5px;
+    padding: 8px;
 }
 
 .divider {
-    border: 1px solid rgb(87, 4, 69);
+    border: 1px solid tomato;
     width: 300px;
 }
 
