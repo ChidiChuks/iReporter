@@ -84,7 +84,7 @@ describe('/PATCH red-flags/:id/comment', () => {
             .patch('/API/v1/red-flags/0/comment')
             .send({ comment: 'Ikeja, Lagos' })
             .end((err, res) => {
-                if (error) done(error);
+                if (err) done(err);
                 assert.equal(res.body.incidents[0].message,
                     'comment has been successfully updated',
                     'error occured while patching comment');
@@ -99,7 +99,7 @@ describe('/GET red-flags/:id', () => {
         request.delete(`${baseurl}/API/v1/red-flags/0`, (error, res, body) => {
             const data = JSON.parse(body);
             assert.equal(data.incidents[0].message,
-                'record deleted successfully',
+                'record has been successfully deleted',
                 'error occured, incident has not been deleted');
             assert.equal(res.statusCode, 200, 'request was unsuccessful');
             done();
@@ -124,7 +124,7 @@ describe('POST /API/v1/users', () => {
             .end((err, res) => {
                 if (err) done(err);
                 assert.equal(res.body.users[0].message,
-                    'user has been registered successfully',
+                    'User has been successfully registered',
                     'error occured, user registration is unsuccessful');
                 assert.equal(res.status, 200, 'request was unsuccessful');
             });

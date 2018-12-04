@@ -1,0 +1,119 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.show {
+    width: 700px;
+    padding: 20;
+}
+
+.user_info p {
+    width: 400px;
+}
+
+nav {
+    background: white;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+nav ul {
+    color: #000;
+    text-align: center;
+    border: 3px solid white;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    padding-left: 10%;
+    top: 20%;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0px;
+    color: #770b41;
+    width: 100px;
+    text-decoration: none;
+}
+
+.status-check {
+    position: relative;
+    list-style: none;
+    padding: 5;
+    margin: 5;
+}
+
+.form-text {
+    margin-top: 30px;
+}
+
+.login_box {
+    background-color: mintcream;
+    width: 500px;
+    border-radius: 5px;
+    height: 700px;
+}
+
+.input-full #date {
+    border-radius: 5px;
+    width: 50%;
+    padding: 8px;
+}
+
+#message {
+    border-radius: 5px;
+    width: 50%;
+    padding: 8px;
+}
+
+.divider {
+    border: 1px solid tomato;
+    width: 300px;
+}
+
+.button-display .edit {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.button-display .edit:hover {
+    cursor: pointer;
+    background: #39dc8b;
+    color: #000;
+}
+
+.button-display .delete {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #c9153c;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.button-display .delete:hover {
+    cursor: pointer;
+    background: #badd20;
+    color: #000;
+}
