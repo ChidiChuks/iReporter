@@ -1,9 +1,5 @@
 language: node_js
 node_js:
  - "stable"
-<<<<<<< HEAD
-script: nodemon 
-=======
 script: 
   - Backend/node_modules/mocha
->>>>>>> feature_branch
