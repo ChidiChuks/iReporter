@@ -2,12 +2,19 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: blueviolet;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: relative;
+    background: url(images/domestic2.jpg) rgba(122, 15, 7, 0.7);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav {
-    background: white;
+    background: rgba(122, 15, 7, 0.541);
     padding: 20px;
     padding-bottom: 40px;
 }
@@ -15,7 +22,6 @@ nav {
 nav ul {
     color: #000;
     text-align: center;
-    border: 3px solid white;
     position: relative;
     list-style: none;
     padding: 0;
@@ -32,7 +38,7 @@ nav ul li {
 nav ul li a {
     display: block;
     padding: 0px;
-    color: #770b41;
+    color: #fff;
     width: 200px;
     text-decoration: none;
 }
@@ -42,7 +48,7 @@ nav ul li a {
 }
 
 .login_box {
-    background-color: mintcream;
+    background-color: rgba(255, 255, 255, 0.555);
     width: 500px;
     border-radius: 5px;
     height: 500px;
@@ -52,11 +58,11 @@ h1 {
     margin: 0;
     padding: 0 0 20;
     text-align: center;
-    font-size: 25px;
+    font-size: 50px;
     font-stretch: expanded;
     font-weight: bold;
     font-style: normal;
-    color: tomato;
+    color: #42030360;
 }
 
 .userField {
@@ -72,7 +78,7 @@ h1 {
 }
 
 .divider {
-    border: 1px solid tomato;
+    border: 1px solid rgb(75, 56, 53);
     width: 300px;
 }
 
@@ -80,7 +86,7 @@ h1 {
     border: none;
     outline: none;
     height: 40px;
-    background: #1c8adb;
+    background: #420303;
     color: #fff;
     font-size: 18px;
     border-radius: 15px;
@@ -90,17 +96,17 @@ h1 {
 
 .login_box button.submit:hover {
     cursor: pointer;
-    background: #39dc79;
+    background: #523c44;
     color: #000;
 }
 
 .signupText {
     text-decoration: none;
-    color: slateblue;
+    color: #420303;
     font-size: 14px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .signupText:hover {
-    color: #39dc79;
+    color: #523c44;
 }
