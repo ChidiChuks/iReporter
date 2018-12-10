@@ -15,7 +15,7 @@ body {
 
 nav {
     background: rgba(122, 15, 7, 0.541);
-    padding: 20px;
+    padding: 30px;
     padding-bottom: 40px;
 }
 
@@ -109,4 +109,12 @@ h1 {
 
 .signupText:hover {
     color: #523c44;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #42030360;
+    text-align: center;
 }
